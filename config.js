@@ -11,6 +11,6 @@ ALIVE_MSG: process.env.ALIVE_IMG || "🤖🔰 Hi QUEEN-SENUM Is Online Now 💻\
 SUDO_NB: process.env.SUDO_NB || "94704104383",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public",
-AUTO_VOICE:"true"
+AUTO_VOICE:"false"
 };
 
