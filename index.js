@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94704104383']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -69,26 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
-
---- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
-
-*🔹 PREFIX:* ${prefix}
-
-*🔹 OWNER:* ${ownerNumber}
-
-
-_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
-_We're here to make your experience enjoyable and seamless._
-_If you need any help or have questions, don't hesitate to ask._ 🌝💗
-
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
-
-_*🧚‍♀️Enjoy your time with us!😊*_
-
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
+let up = `🚀 *_SENU QUEEN Connected Successfully!_* ✅  `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://imgtr.ee/images/2024/09/20/9321bfeda1f23bd49d5b08498dc4e322.jpeg` }, caption: up })
 
@@ -159,17 +140,17 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94718913389")){
+if(senderNumber.includes("94704104383")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("94718212256")){
+if(senderNumber.includes("94771665143")){
 if(isReact) return
-m.react("😂")
+m.react("❤️")
 }
-if(senderNumber.includes("94765527900")){
+if(senderNumber.includes("9471")){
 if(isReact) return
-m.react("📍")
+m.react("🤖")
 }       
 //=====================✓
 
